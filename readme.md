@@ -1,4 +1,4 @@
-Nette Framework Sandbox
+Nette Framework Sandbox 2.1 with Texyla
 =======================
 
 The basic skeleton of application.
