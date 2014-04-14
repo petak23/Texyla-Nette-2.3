@@ -1,3 +1,4 @@
+# I prefer to create components in BasePresenter you can use webloader.neon if you wish
 webloader:
 	css:
 		default:

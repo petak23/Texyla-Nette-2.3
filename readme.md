@@ -1,4 +1,4 @@
-Nette Framework Sandbox 2.1 with Texyla
+Nette Framework Sandbox 2.1.0 with Texyla
 =======================
 
 The basic skeleton of application.
@@ -22,17 +22,17 @@ from http://nette.org/download or create new project using Composer:
 
 1. Install Composer: (see http://getcomposer.org/download)
 
-		curl -s http://getcomposer.org/installer | php
+2. Install Git
 
-2. Create new project via Composer:
+3. Navigate to your preferable directory and run command
 
-		php composer.phar create-project nette/sandbox myApplication
-		cd myApplication
+   - git clone https://github.com/regiss/Texyla-Nette-2.1
+   - cd Texyla-Nette-2.1/
+   - composer install
 
-Make directories `temp` and `log` writable. Navigate your browser
-to the `www` directory and you will see a welcome page. PHP 5.4 allows
-you run `php -S localhost:8888 -t www` to start the web server and
-then visit `http://localhost:8888` in your browser.
+
+Make directories `temp` `log` `webtemp`  writable. Navigate your browser
+to the `www` directory and you will see a Texyla example
 
 
 It is CRITICAL that file `app/config/config.neon` & whole `app`, `log`

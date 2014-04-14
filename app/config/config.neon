@@ -27,7 +27,7 @@ extensions:
 	webloader: WebLoader\Nette\Extension
 
 services:
-	- App\UserManager
+#	- App\UserManager
 	- App\RouterFactory
 	router: @App\RouterFactory::createRouter
 	Texy: TexylaExample\MyTexy(@httpRequest)
