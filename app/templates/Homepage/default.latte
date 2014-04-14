@@ -1,0 +1,14 @@
+{block content}
+<div id="content">
+
+
+    <h2>Texyla example</h2>
+    {control exampleForm}
+
+    {$texytest|noescape|texy}
+
+
+    <footer>PHP {=PHP_VERSION} |
+        {ifset $_SERVER['SERVER_SOFTWARE']}Server {$_SERVER['SERVER_SOFTWARE']}{/ifset} |
+        Nette Framework {=Nette\Framework::VERSION}</footer>
+</div>

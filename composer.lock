@@ -1,0 +1,261 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
+    "hash": "adbc145318d68afded9a015216ca83e4",
+    "packages": [
+        {
+            "name": "dg/adminer-custom",
+            "version": "v1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dg/adminer-custom.git",
+                "reference": "aeed2dbc97bdaf134efded1e8e2869f079d70b4b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dg/adminer-custom/zipball/aeed2dbc97bdaf134efded1e8e2869f079d70b4b",
+                "reference": "aeed2dbc97bdaf134efded1e8e2869f079d70b4b",
+                "shasum": ""
+            },
+            "type": "project",
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "Customization for the best database management tool written in PHP, Adminer",
+            "time": "2014-02-01 21:30:36"
+        },
+        {
+            "name": "dg/texy",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dg/texy.git",
+                "reference": "00df66cb1b84f6c344f6cc8b4fb24b956458ee8c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dg/texy/zipball/00df66cb1b84f6c344f6cc8b4fb24b956458ee8c",
+                "reference": "00df66cb1b84f6c344f6cc8b4fb24b956458ee8c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.0"
+            },
+            "replace": {
+                "dg/texy": "self.version"
+            },
+            "require-dev": {
+                "nette/tester": "~1.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/texy.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause",
+                "GPL-2.0",
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "David Grudl",
+                    "homepage": "http://davidgrudl.com"
+                }
+            ],
+            "description": "Texy converts plain text in easy to read Texy syntax into structurally valid (X)HTML. It supports adding of images, links, nested lists, tables and has full support for CSS. Texy supports hyphenation of long words (which reflects language rules), clickable emails and URL (emails are obfuscated against spambots), national typographic single and double quotation marks, ellipses, em dashes, dimension sign, nonbreakable spaces (e.g. in phone numbers), acronyms, arrows and many others. Texy code can optionally contain HTML tags.",
+            "homepage": "http://texy.info",
+            "keywords": [
+                "html",
+                "markdown",
+                "markup language",
+                "plain text",
+                "text",
+                "textile",
+                "texy",
+                "wiki",
+                "xhtml"
+            ],
+            "time": "2014-03-10 15:02:30"
+        },
+        {
+            "name": "janmarek/webloader",
+            "version": "dev-jm-nette-extension",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/janmarek/WebLoader.git",
+                "reference": "26a498772aa914c700c7884ae61424ed7a6bfdb5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/janmarek/WebLoader/zipball/26a498772aa914c700c7884ae61424ed7a6bfdb5",
+                "reference": "26a498772aa914c700c7884ae61424ed7a6bfdb5",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "WebLoader": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jan Marek",
+                    "email": "mail@janmarek.net",
+                    "homepage": "http://www.janmarek.net/",
+                    "role": "Author"
+                }
+            ],
+            "description": "Tool for loading or deploying CSS and JS files into web pages",
+            "homepage": "http://addons.nette.org/cs/webloader",
+            "keywords": [
+                "assets",
+                "css",
+                "javascript",
+                "nette",
+                "webloader"
+            ],
+            "time": "2012-04-20 19:18:37"
+        },
+        {
+            "name": "nette/nette",
+            "version": "v2.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nette/nette.git",
+                "reference": "9e7e5fc5921053172dbacecda2c06d749f89a71b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nette/nette/zipball/9e7e5fc5921053172dbacecda2c06d749f89a71b",
+                "reference": "9e7e5fc5921053172dbacecda2c06d749f89a71b",
+                "shasum": ""
+            },
+            "require": {
+                "ext-iconv": "*",
+                "ext-tokenizer": "*",
+                "php": ">=5.3.1"
+            },
+            "require-dev": {
+                "nette/tester": "~1.0.0"
+            },
+            "suggest": {
+                "ext-fileinfo": "*",
+                "ext-gd": "*",
+                "ext-mbstring": "*",
+                "ext-pdo": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "Nette/"
+                ],
+                "files": [
+                    "Nette/common/shortcuts.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause",
+                "GPL-2.0",
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "David Grudl",
+                    "homepage": "http://davidgrudl.com"
+                },
+                {
+                    "name": "Nette Community",
+                    "homepage": "http://nette.org/contributors"
+                }
+            ],
+            "description": "Nette Framework - innovative framework for fast and easy development of secured web applications in PHP. Write less, have cleaner code and your work will bring you joy.",
+            "homepage": "http://nette.org",
+            "keywords": [
+                "Forms",
+                "database",
+                "debugging",
+                "framework",
+                "mailing",
+                "mvc",
+                "templating"
+            ],
+            "time": "2014-02-11 04:51:20"
+        }
+    ],
+    "packages-dev": [
+        {
+            "name": "nette/tester",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nette/tester.git",
+                "reference": "710ea7b1b7e1a05c112438e808daa15314fbfe8f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nette/tester/zipball/710ea7b1b7e1a05c112438e808daa15314fbfe8f",
+                "reference": "710ea7b1b7e1a05c112438e808daa15314fbfe8f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "bin": [
+                "Tester/tester",
+                "Tester/coverage-report"
+            ],
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "Tester/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause",
+                "GPL-2.0",
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "David Grudl",
+                    "homepage": "http://davidgrudl.com"
+                },
+                {
+                    "name": "Nette Community",
+                    "homepage": "http://nette.org/contributors"
+                }
+            ],
+            "description": "An easy-to-use PHP Unit Testing framework.",
+            "homepage": "http://nette.org",
+            "keywords": [
+                "nette",
+                "testing",
+                "unit"
+            ],
+            "time": "2014-02-08 12:54:09"
+        }
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "dg/texy": 20,
+        "janmarek/webloader": 20
+    },
+    "platform": {
+        "php": ">= 5.3.7"
+    },
+    "platform-dev": [
+
+    ]
+}
