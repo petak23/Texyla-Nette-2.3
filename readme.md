@@ -14,11 +14,8 @@ performance and is definitely one of the safest PHP frameworks.
 Nette Framework speaks your language and helps you to easily build better websites.
 
 
-Installing
+Installing Nette and Texyla
 ----------
-
-The best way to install Nette Framework is to download latest package
-from http://nette.org/download or create new project using Composer:
 
 1. Install Composer: (see http://getcomposer.org/download)
 
