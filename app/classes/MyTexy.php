@@ -27,8 +27,7 @@ class MyTexy extends \Texy
 		self::$advertisingNotice = false;
 
 		// headings
-//		$this->headingModule->balancing = \TexyHeadingModule::FIXED;
-		$this->headingModule->balancing = \Texy\Modules\HeadingModule::FIXED;
+        $this->headingModule->balancing = \TexyHeadingModule::FIXED;
 
 		// phrases
 		$this->allowed['phrase/ins'] = true;   // ++inserted++

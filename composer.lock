@@ -1,41 +1,42 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
     ],
-    "hash": "adbc145318d68afded9a015216ca83e4",
+    "hash": "ec590d4b6d81169b03c733350810b6c4",
     "packages": [
         {
             "name": "dg/adminer-custom",
-            "version": "v1.2.0",
+            "version": "v1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dg/adminer-custom.git",
-                "reference": "aeed2dbc97bdaf134efded1e8e2869f079d70b4b"
+                "reference": "9365952e11b2b706be94c5000bf032027557a45b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dg/adminer-custom/zipball/aeed2dbc97bdaf134efded1e8e2869f079d70b4b",
-                "reference": "aeed2dbc97bdaf134efded1e8e2869f079d70b4b",
+                "url": "https://api.github.com/repos/dg/adminer-custom/zipball/9365952e11b2b706be94c5000bf032027557a45b",
+                "reference": "9365952e11b2b706be94c5000bf032027557a45b",
                 "shasum": ""
             },
             "type": "project",
             "notification-url": "https://packagist.org/downloads/",
             "description": "Customization for the best database management tool written in PHP, Adminer",
-            "time": "2014-02-01 21:30:36"
+            "time": "2014-08-05 16:59:07"
         },
         {
             "name": "dg/texy",
-            "version": "dev-master",
+            "version": "v2.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dg/texy.git",
-                "reference": "00df66cb1b84f6c344f6cc8b4fb24b956458ee8c"
+                "reference": "8213d3646c3ab1a3eca52413a5be26acb29826fc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dg/texy/zipball/00df66cb1b84f6c344f6cc8b4fb24b956458ee8c",
-                "reference": "00df66cb1b84f6c344f6cc8b4fb24b956458ee8c",
+                "url": "https://api.github.com/repos/dg/texy/zipball/8213d3646c3ab1a3eca52413a5be26acb29826fc",
+                "reference": "8213d3646c3ab1a3eca52413a5be26acb29826fc",
                 "shasum": ""
             },
             "require": {
@@ -45,7 +46,7 @@
                 "dg/texy": "self.version"
             },
             "require-dev": {
-                "nette/tester": "~1.0.0"
+                "nette/tester": "~1.2"
             },
             "type": "library",
             "autoload": {
@@ -78,7 +79,7 @@
                 "wiki",
                 "xhtml"
             ],
-            "time": "2014-03-10 15:02:30"
+            "time": "2014-06-20 18:38:38"
         },
         {
             "name": "janmarek/webloader",
@@ -249,9 +250,9 @@
     ],
     "minimum-stability": "stable",
     "stability-flags": {
-        "dg/texy": 20,
         "janmarek/webloader": 20
     },
+    "prefer-stable": false,
     "platform": {
         "php": ">= 5.3.7"
     },

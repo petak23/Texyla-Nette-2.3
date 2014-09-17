@@ -106,7 +106,7 @@ Texyla.prototype.submit = function () {
 	if (typeof f.onsubmit == 'function') {
 		if (f.onsubmit()) {
 			submitnout();
-		}
+        }
 	} else {
 		submitnout();
 	}

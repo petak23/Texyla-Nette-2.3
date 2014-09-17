@@ -18,7 +18,7 @@
 		"php": ">= 5.3.7",
 		"nette/nette": "v2.1.1",
 		"dg/adminer-custom": "1.*",
-        "dg/texy": "dev-master",
+        "dg/texy": "v2.6",
         "JanMarek/WebLoader": "dev-jm-nette-extension"
 	},
 	"require-dev": {
