@@ -23,19 +23,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="composer.json" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="composer.json" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/composer.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="447" selection-end="606" vertical-scroll-proportion="0.36260977" vertical-offset="0" max-vertical-offset="797">
+            <state line="7" column="9" selection-start="273" selection-end="273" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="561">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="texyla.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="texyla.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/js/texyla/js/texyla.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="114" column="18" selection-start="2637" selection-end="2637" vertical-scroll-proportion="0.0" vertical-offset="1785" max-vertical-offset="2805">
+            <state line="107" column="25" selection-start="2585" selection-end="2585" vertical-scroll-proportion="0.7314702" vertical-offset="1217" max-vertical-offset="2805">
               <folding />
             </state>
           </provider>
@@ -44,10 +44,8 @@
       <file leaf-file-name="TexylaPresenter.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/presenters/TexylaPresenter.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="22" selection-start="389" selection-end="389" vertical-scroll-proportion="-7.109091" vertical-offset="0" max-vertical-offset="5627">
-              <folding>
-                <element signature="e#33#71#0" expanded="true" />
-              </folding>
+            <state line="23" column="22" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="5627">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -55,10 +53,8 @@
       <file leaf-file-name="MyTexy.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/classes/MyTexy.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="128" column="31" selection-start="3077" selection-end="3077" vertical-scroll-proportion="-39.563637" vertical-offset="0" max-vertical-offset="3638">
-              <folding>
-                <element signature="e#81#105#0" expanded="true" />
-              </folding>
+            <state line="128" column="31" selection-start="3077" selection-end="3077" vertical-scroll-proportion="0.0" vertical-offset="2176" max-vertical-offset="3638">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -66,7 +62,7 @@
       <file leaf-file-name="TexylaLoader.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/classes/TexylaLoader.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="20" selection-start="253" selection-end="253" vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="1190">
+            <state line="17" column="20" selection-start="253" selection-end="253" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1190">
               <folding />
             </state>
           </provider>
@@ -75,7 +71,7 @@
       <file leaf-file-name="HomepagePresenter.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/presenters/HomepagePresenter.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="0" selection-start="1052" selection-end="1052" vertical-scroll-proportion="-20.846153" vertical-offset="393" max-vertical-offset="1343">
+            <state line="55" column="0" selection-start="1052" selection-end="1052" vertical-scroll-proportion="0.0" vertical-offset="393" max-vertical-offset="1343">
               <folding />
             </state>
           </provider>
@@ -84,7 +80,7 @@
       <file leaf-file-name="composer.json" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vendor/dg/texy/composer.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="527">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
               <folding />
             </state>
           </provider>
@@ -93,7 +89,7 @@
       <file leaf-file-name="texy.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vendor/dg/texy/src/texy.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="57" selection-start="718" selection-end="718" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="1054">
+            <state line="20" column="57" selection-start="718" selection-end="718" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="1122">
               <folding />
             </state>
           </provider>
@@ -102,7 +98,7 @@
       <file leaf-file-name="Texy.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vendor/dg/texy/src/Texy/Texy.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="6" selection-start="324" selection-end="324" vertical-scroll-proportion="-4.5636363" vertical-offset="4" max-vertical-offset="14960">
+            <state line="18" column="6" selection-start="324" selection-end="324" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="15011">
               <folding />
             </state>
           </provider>
@@ -147,15 +143,15 @@
         <option value="$PROJECT_DIR$/../../../programovani_php/www-bruce/cpq/cpq.html" />
         <option value="$PROJECT_DIR$/../../../programovani_php/www-bruce/cpq/cpq_files/KimberleySmartCatalogJs.js" />
         <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/www/js/texyla/js/texyla.js" />
         <option value="$PROJECT_DIR$/app/classes/MyTexy.php" />
+        <option value="$PROJECT_DIR$/www/js/texyla/js/texyla.js" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="185" />
-    <option name="y" value="69" />
+    <option name="x" value="124" />
+    <option name="y" value="23" />
     <option name="width" value="1680" />
     <option name="height" value="943" />
   </component>
@@ -240,7 +236,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -391,6 +386,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -457,13 +453,12 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="185" y="69" width="1680" height="943" extended-state="0" />
+    <frame x="124" y="23" width="1680" height="943" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3274648" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296417" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20336944" sideWeight="0.29812208" order="2" side_tool="false" content_ui="tabs" x="280" y="254" width="340" height="650" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20336944" sideWeight="0.70187795" order="1" side_tool="true" content_ui="combo" />
@@ -474,10 +469,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3274648" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -495,9 +491,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14576074" sideWeight="0.24660634" order="2" side_tool="false" content_ui="tabs" x="280" y="254" width="340" height="650" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14576074" sideWeight="0.75339365" order="1" side_tool="true" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -695,23 +691,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/Homepage/default.latte">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="340">
-          <folding />
-        </state>
+        <state line="4" column="0" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="340" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/bootstrap.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="17" selection-start="417" selection-end="417" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="544">
-          <folding />
-        </state>
+        <state line="14" column="17" selection-start="417" selection-end="417" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="544" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/webtemp/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="854">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="854" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/readme.md">
@@ -719,9 +709,7 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="27" selection-start="525" selection-end="525" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="748">
-          <folding />
-        </state>
+        <state line="16" column="27" selection-start="525" selection-end="525" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="748" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/composer.lock">
@@ -729,9 +717,7 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4539">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4539" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/js/main.js">
@@ -741,16 +727,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/temp/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="579">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="579" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/log/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="823">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="823" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/@layout.latte">
@@ -762,14 +744,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/dg/texy/src/texy.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="57" selection-start="718" selection-end="718" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="1054">
+        <state line="20" column="57" selection-start="718" selection-end="718" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="1122">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/dg/texy/src/Texy/Texy.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="6" selection-start="324" selection-end="324" vertical-scroll-proportion="-4.5636363" vertical-offset="4" max-vertical-offset="14960">
+        <state line="18" column="6" selection-start="324" selection-end="324" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="15011">
           <folding />
         </state>
       </provider>
@@ -781,48 +763,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/texyla/js/texyla.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="114" column="18" selection-start="2637" selection-end="2637" vertical-scroll-proportion="0.0" vertical-offset="1785" max-vertical-offset="2805">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/classes/MyTexy.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="128" column="31" selection-start="3077" selection-end="3077" vertical-scroll-proportion="-39.563637" vertical-offset="0" max-vertical-offset="3638">
-          <folding>
-            <element signature="e#81#105#0" expanded="true" />
-          </folding>
+        <state line="128" column="31" selection-start="3077" selection-end="3077" vertical-scroll-proportion="0.0" vertical-offset="2176" max-vertical-offset="3638">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/classes/TexylaLoader.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="20" selection-start="253" selection-end="253" vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="1190">
+        <state line="17" column="20" selection-start="253" selection-end="253" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1190">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/presenters/HomepagePresenter.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="0" selection-start="1052" selection-end="1052" vertical-scroll-proportion="-20.846153" vertical-offset="393" max-vertical-offset="1343">
+        <state line="55" column="0" selection-start="1052" selection-end="1052" vertical-scroll-proportion="0.0" vertical-offset="393" max-vertical-offset="1343">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/presenters/TexylaPresenter.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="22" selection-start="389" selection-end="389" vertical-scroll-proportion="-7.109091" vertical-offset="0" max-vertical-offset="5627">
-          <folding>
-            <element signature="e#33#71#0" expanded="true" />
-          </folding>
+        <state line="23" column="22" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="5627">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="447" selection-end="606" vertical-scroll-proportion="0.36260977" vertical-offset="0" max-vertical-offset="797">
+        <state line="7" column="9" selection-start="273" selection-end="273" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="561">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/texyla/js/texyla.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="107" column="25" selection-start="2585" selection-end="2585" vertical-scroll-proportion="0.7314702" vertical-offset="1217" max-vertical-offset="2805">
           <folding />
         </state>
       </provider>
