@@ -30,6 +30,16 @@ class HomepagePresenter extends BasePresenter
         return $form;
     }
 
+	
+	public function exampleFormSubmitted($form){
+
+        $values = $form->getValues();
+
+        dump($values);
+
+        //add redirect later 
+
+    }
 
 	public function renderDefault()
 	{
