@@ -1,5 +1,5 @@
 jQuery.texyla.addWindow("table", {
-	dimensions: [320, 200],
+	dimensions: [515, 240],
 
 	action: function (cont) {
 		this.texy.table(cont.find(".cols").val(), cont.find(".rows").val(), cont.find(".header").val());

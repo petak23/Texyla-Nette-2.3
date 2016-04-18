@@ -27,30 +27,23 @@ class TexylaPresenter extends BasePresenter
 	/** @var string */
 	private $tempUri;
 
-	/** @var \TexylaExample\MyTexy */
-	private $texy;
-
-
 	/**
 	 * Startup
 	 */
 	public function startup()
 	{
 		parent::startup();
-		$this->texy = $this->context->Texy;
 		$this->baseFolderPath = $this->texy->imageModule->fileRoot;
 		$this->baseFolderUri = $this->texy->imageModule->root;
-		$this->tempDir = $this->baseFolderPath . '/../webtemp';
+		$this->tempDir = $this->baseFolderPath . '/../../webtemp';
 		$this->tempUri = $this->template->basePath . '/webtemp';
 	}
 
 	/**
 	 * Texyla preview
 	 */
-	public function actionPreview()
-	{
-		$httpRequest = $this->context->httpRequest;
-		$html = $this->texy->process($httpRequest->getPost("texy"));
+	public function actionPreview()	{
+		$html = $this->texy->process($this->httpRequest->getPost("texy"));
 		$this->sendResponse(new TextResponse($html));
 	}
 
@@ -60,19 +53,15 @@ class TexylaPresenter extends BasePresenter
 	 * Send error message
 	 * @param string $msg
 	 */
-	private function sendError($msg)
-	{
-		$this->sendResponse(new JsonResponse(array(
-				"error" => $msg,
-				), "text/plain"));
+	private function sendError($msg) {
+		$this->sendResponse(new JsonResponse(["error" => $msg], "text/plain"));
 	}
 
 	/**
 	 * Get and check path to folder
 	 * @param string $folder
 	 */
-	protected function getFolderPath($folder)
-	{
+	protected function getFolderPath($folder) {
 		$folderPath = realpath($this->baseFolderPath . ($folder ? "/" . $folder : ""));
 
 		if (!is_dir($folderPath) || !is_writable($folderPath) || !Strings::startsWith($folderPath, realpath($this->baseFolderPath))) {
@@ -87,8 +76,7 @@ class TexylaPresenter extends BasePresenter
 	 * @param string $path
 	 * @return string
 	 */
-	protected function thumbnailFileName($path)
-	{
+	protected function thumbnailFileName($path) {
 		$path = realpath($path);
 		return "texylapreview-" . md5($path . "|" . filemtime($path)) . ".jpg";
 	}
@@ -97,13 +85,12 @@ class TexylaPresenter extends BasePresenter
 	 * File browser - list files
 	 * @param string $folder
 	 */
-	public function actionListFiles($folder = "")
-	{
+	public function actionListFiles($folder = "") {
 		// check rights
 //		if (!Environment::getUser()->isAuthenticated()) {
 //			$this->sendError("Access denied.");
 //		}
-
+//$this->sendError("Pokusne - Folder does not exist or is not writeable.". $this->tempDir);
 		try {
 			$folderPath = $this->getFolderPath($folder);
 		}
@@ -112,8 +99,8 @@ class TexylaPresenter extends BasePresenter
 		}
 
 		// list of files
-		$folders = array();
-		$files = array();
+		$folders = [];
+		$files = [];
 
 		// up
 		if ($folder !== "") {
@@ -127,9 +114,10 @@ class TexylaPresenter extends BasePresenter
 			$fileName = $fileInfo->getFileName();
 
 			// skip hidden files, . and ..
-			if (Strings::startsWith($fileName, "."))
+			if (Strings::startsWith($fileName, ".")) {
 				continue;
-
+      }
+      
 			// filename with folder
 			$key = ($folder ? $folder . "/" : "") . $fileName;
 
@@ -171,19 +159,17 @@ class TexylaPresenter extends BasePresenter
 		}
 
 		// send response
-		$this->sendResponse(new JsonResponse(array(
-				"list" => array_merge($folders, $files),
-			)));
+		$this->sendResponse(new JsonResponse([ "list" => array_merge($folders, $files)]));
 	}
 
 	/**
 	 * Genarate and show preview of the image in file browser
 	 * @param string $key
 	 */
-	public function actionThumbnail($key)
-	{
+	public function actionThumbnail($key) {
 		try {
 			$path = $this->baseFolderPath . "/" . $key;
+      $this->sendError($path);
 			$image = Image::fromFile($path)->resize(60, 40);
 			$image->save($this->tempDir . "/" . $this->thumbnailFileName($path));
 			@chmod($path, 0666);
@@ -199,16 +185,13 @@ class TexylaPresenter extends BasePresenter
 	/**
 	 * File upload
 	 */
-	public function actionUpload()
-	{
-		$httpRequest = $this->context->httpRequest;
-
+	public function actionUpload() {
 		// check user rights
 //		if (!Environment::getUser()->isAllowed("files", "upload")) {
 //			$this->sendError("Access denied.");
 //		}
 		// path
-		$folder = $httpRequest->getPost("folder");
+		$folder = $this->httpRequest->getPost("folder");
 
 		try {
 			$folderPath = $this->getFolderPath($folder);
@@ -218,7 +201,7 @@ class TexylaPresenter extends BasePresenter
 		}
 
 		// file
-		$file = $httpRequest->getFile("file");
+		$file = $this->httpRequest->getFile("file");
 
 		// check
 		if ($file === null || !$file->isOk()) {

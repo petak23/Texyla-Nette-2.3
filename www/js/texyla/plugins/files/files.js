@@ -164,7 +164,7 @@ jQuery.texyla.addWindow("files", {
 
 						// icon
 						if (type === "image") {
-							item.find(".image").append('<image src="' + _this.expand(_this.options.filesThumbPath, list[i].thumbnailKey) + '">');
+							item.find(".image").append('<img src="' + _this.expand(_this.options.filesThumbPath, list[i].thumbnailKey) + '">');
 						} else {
 							item.find(".image").append('<img src="' + _this.expand(_this.options.filesIconPath, list[i].type) + '" width="16" height="16" alt="">');
 						}

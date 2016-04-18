@@ -59,5 +59,5 @@ jQuery.texyla.addWindow("color", {
 		return colors;
 	},
 
-	dimensions: [200, 150]
+	dimensions: [200, 230]
 });

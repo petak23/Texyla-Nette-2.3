@@ -1,5 +1,5 @@
 jQuery.texyla.addWindow("link", {
-	dimensions: [330, 180],
+	dimensions: [330, 265],
 
 	createContent: function () {
 		return jQuery(

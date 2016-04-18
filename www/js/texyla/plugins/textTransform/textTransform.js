@@ -56,5 +56,5 @@ jQuery.texyla.addWindow("textTransform", {
 		}
 	},
 
-	dimensions: [220, 210]
+	dimensions: [315, 275]
 });

@@ -26,6 +26,9 @@ nette:
 extensions:
 	webloader: WebLoader\Nette\Extension
 
+includes:
+  - webloader.neon
+
 services:
 #	- App\UserManager
 	- App\RouterFactory

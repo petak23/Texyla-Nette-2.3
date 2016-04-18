@@ -36,5 +36,5 @@ jQuery.texyla.addWindow("img", {
 		);
 	},
 
-	dimensions: [350, 250]
+	dimensions: [365, 310]
 });

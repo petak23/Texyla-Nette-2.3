@@ -18,7 +18,7 @@ jQuery.texyla.addWindow("youtube", {
 			var val = this.value;
 			var key = "";
 
-			if (val.substr(0, 7) == "http://") {
+			if (val.substr(0, 8) === "https://") {
 				var res = val.match("[?&]v=([a-zA-Z0-9_-]+)");
 				if (res) key = res[1];
 			} else {
@@ -27,9 +27,9 @@ jQuery.texyla.addWindow("youtube", {
 
 			jQuery(this).data("key", key);
 
-			el.find(".thumb").html(
-				'<img src="http://img.youtube.com/vi/' + key + '/1.jpg" width="120" height="90">'
-			);
+			el.find(".thumb").html(//https://youtu.be/SMVKEv3jcio
+				'<img src="//i.ytimg.com/vi/' + key + '/mqdefault.jpg" width="120" height="90">'
+			); 
 		});
 
 		return el;
@@ -40,7 +40,7 @@ jQuery.texyla.addWindow("youtube", {
 		this.texy.update().replace(txt);
 	},
 
-	dimensions: [320, 300]
+	dimensions: [410, 410]
 });
 
 jQuery.texyla.addStrings("cs", {

@@ -1,29 +1,51 @@
 # I prefer to create components in BasePresenter you can use webloader.neon if you wish
+#services:
+#	jwlCssMinFilter: Joseki\Webloader\CssMinFilter
 webloader:
 	css:
 		default:
 			remoteFiles:
-				- http://code.jquery.com/ui/1.9.1/themes/base/jquery-ui.css
+				- https://code.jquery.com/ui/1.11.4/themes/cupertino/jquery-ui.css
 			files:
-				- %wwwDir%/../libs/bootstrap/css/bootstrap.min.css
 				#- %wwwDir%/../libs/bootstrap/css/bootstrap-responsive.min.css
-				- %wwwDir%/../vendor/smasty/twitter-control/client-side/TwitterControl.css
-				- %wwwDir%/texyla/css/style.css
-				- %wwwDir%/texyla/themes/default/theme.css
-			filters:
-				- @wlCssFilter
-		# seondary factory
-		mini: 
-			remoteFiles:
-				- http://code.jquery.com/ui/1.9.1/themes/base/jquery-ui.css
+#				- %wwwDir%/../vendor/smasty/twitter-control/client-side/TwitterControl.css
+				- %wwwDir%/www/css/texyla-style.css
+				- %wwwDir%/www/css/texyla-theme-default.css
+#			filters:
+#				- @jwlCssMinFilter
 	js: 
 		default:
 			remoteFiles:
-				- https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js
-				- https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js
+				- https://code.jquery.com/jquery-1.12.3.min.js
+				- https://code.jquery.com/ui/1.11.4/jquery-ui.min.js
 			files:
-				- %wwwDir%/../libs/bootstrap/js/bootstrap.min.js
-				- %wwwDir%/../vendor/smasty/twitter-control/client-side/TwitterControl.js
-				- %wwwDir%/../vendor/nette/nette/client-side/netteForms.js
+				- %wwwDir%/www/js/netteForms.js
 				#- %wwwDir%/js/nette.ajax.js
-				- %wwwDir%/js/texyla-init.js
+		texyla:
+			files:
+				- %wwwDir%/www/js/texyla/js/texyla.js
+				- %wwwDir%/www/js/texyla/js/selection.js
+				- %wwwDir%/www/js/texyla/js/texy.js
+				- %wwwDir%/www/js/texyla/js/buttons.js
+				- %wwwDir%/www/js/texyla/js/dom.js
+				- %wwwDir%/www/js/texyla/js/view.js
+				- %wwwDir%/www/js/texyla/js/ajaxupload.js
+				- %wwwDir%/www/js/texyla/js/window.js
+				- %wwwDir%/www/js/texyla/languages/cs.js
+				- %wwwDir%/www/js/texyla/languages/sk.js
+				- %wwwDir%/www/js/texyla/languages/en.js
+				- %wwwDir%/www/js/texyla/plugins/keys/keys.js
+				- %wwwDir%/www/js/texyla/plugins/resizableTextarea/resizableTextarea.js
+				- %wwwDir%/www/js/texyla/plugins/img/img.js
+				- %wwwDir%/www/js/texyla/plugins/table/table.js
+				- %wwwDir%/www/js/texyla/plugins/link/link.js
+				- %wwwDir%/www/js/texyla/plugins/emoticon/emoticon.js
+				- %wwwDir%/www/js/texyla/plugins/symbol/symbol.js
+				- %wwwDir%/www/js/texyla/plugins/files/files.js
+				- %wwwDir%/www/js/texyla/plugins/color/color.js
+				- %wwwDir%/www/js/texyla/plugins/textTransform/textTransform.js
+				- %wwwDir%/www/js/texyla/plugins/youtube/youtube.js
+				- %wwwDir%/www/js/texyla/plugins/gravatar/gravatar.js
+				- %wwwDir%/www/js/texyla-init.js
+#			filters:
+#				- @JSMin::minify

@@ -8,7 +8,7 @@ jQuery.texyla.setDefaults({
 });
 
 jQuery.texyla.addWindow("symbol", {
-	dimensions: [300, 230],
+	dimensions: [300, 340],
 
 	createContent: function () {
 		var _this = this;

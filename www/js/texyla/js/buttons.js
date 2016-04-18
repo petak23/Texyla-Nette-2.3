@@ -34,7 +34,7 @@ Texyla.prototype.buttons = {
 	codeInline: function() {this.texy.phrase('`');},
 	html: function() {this.texy.block('html');},
 	notexy: function() {this.texy.phrase("''", "''");},
-	web: function() {window.open('http://texyla.janmarek.net/');},
+//	web: function() {window.open('http://texyla.janmarek.net/');},
 	syntax: function() {window.open(this.lng.syntaxUrl);},
 	div: function() {this.texy.block('div');},
 	comment: function() {this.texy.block('comment');},

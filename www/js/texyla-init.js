@@ -1,5 +1,6 @@
 $.texyla.setDefaults({
-	baseDir: '{{$baseUri}}js/texyla',
+	baseDir: '{{$baseUri}}www/js/texyla',
+  iconPath: '{{$baseUri}}www/icons/%var%.png',
 	previewPath: '{{$previewPath}}',
 	filesPath: '{{$filesPath}}',
 	filesUploadPath: '{{$filesUploadPath}}',
@@ -19,7 +20,7 @@ $(function () {
 			null,
 			'ul', 'ol', ["olAlphabetSmall", "olAlphabetBig", "olRomans", "olRomansSmall"],
 			null,
-			{ type: "label", text: "Insert"}, 'link', 'img', 'table', 'emoticon', 'symbol',
+			{ type: "label", text: "Vlož"}, 'link', 'img', 'table', 'emoticon', 'symbol',
 			null,
 			'color', 'textTransform',
 			null,
@@ -29,7 +30,7 @@ $(function () {
 			null,
 			'code',	['codeHtml', 'codeCss', 'codeJs', 'codePhp', 'codeSql'], 'codeInline',
 			null,
-			{ type: "label", text: "Other"}, ['sup', 'sub', 'del', 'acronym', 'hr', 'notexy', 'web']
+			/*{ type: "label", text: "Ostatné"}, [*/'sup', 'sub', 'del', 'acronym', 'hr', 'notexy'/*, 'web']*/
 
 		],
 		texyCfg: "admin",
@@ -41,5 +42,4 @@ $(function () {
 	$.texyla({
 		buttonType: "button"
 	});
-
 });

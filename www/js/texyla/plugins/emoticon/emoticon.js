@@ -56,5 +56,5 @@ $.texyla.addWindow("emoticon", {
 		return emoticons;
 	},
 
-	dimensions: [192, 170]
+	dimensions: [192, 260]
 });
