@@ -15,3 +15,4 @@ app/config/config.local.neon
 /vendor/nette/
 /vendor/tracy/
 /vendor/autoload.php
+/vendor/
