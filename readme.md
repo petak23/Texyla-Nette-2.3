@@ -1,8 +1,5 @@
-Nette Framework Sandbox 2.1.0 with Texyla
+Nette Framework Sandbox 2.4 with Texyla
 =======================
-
-The basic skeleton of application.
-
 
 What is [Nette Framework](http://nette.org)?
 --------------------------------------------
@@ -23,13 +20,12 @@ Installing Nette and Texyla
 
 3. Navigate to your preferable directory and run command
 
-   - git clone https://github.com/regiss/Texyla-Nette-2.1
-   - cd Texyla-Nette-2.1/
+   - git clone https://github.com/petak23/Texyla-Nette-2.4.git
+   - cd Texyla-Nette-2.4/
    - composer install
 
 
-Make directories `temp` `log` `webtemp`  writable. Navigate your browser
-to the `www` directory and you will see a Texyla example
+Make directories `temp` `log` `webtemp`  writable. 
 
 
 It is CRITICAL that file `app/config/config.neon` & whole `app`, `log`
