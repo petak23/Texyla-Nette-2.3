@@ -4,7 +4,7 @@
 jQuery.texyla.initPlugin(function () {
 	var _this = this;
 
-	this.textarea.bind(jQuery.browser.opera ? "keypress" : "keydown", function(e) {
+	this.textarea.bind(/*jQuery.browser.opera ? "keypress" : */"keydown", function(e) {
 		_this.keys(e);
 	});
 });

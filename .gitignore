@@ -16,3 +16,4 @@ app/config/config.local.neon
 /vendor/tracy/
 /vendor/autoload.php
 /vendor/
+/nbproject/private/

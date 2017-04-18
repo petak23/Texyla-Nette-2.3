@@ -12,16 +12,16 @@ php:
 	# zlib.output_compression: yes
 
 
-nette:
-	application:
-		errorPresenter: Error
-		mapping:
-			*: App\*Module\Presenters\*Presenter
-	container:
-		debugger: true
+application:
+	errorPresenter: Error
+	mapping:
+		*: App\*Module\Presenters\*Presenter
 
-	session:
-		expiration: 14 days
+#container:
+#	debugger: true
+
+session:
+	expiration: 14 days
 
 extensions:
 	webloader: WebLoader\Nette\Extension

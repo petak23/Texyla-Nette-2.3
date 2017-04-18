@@ -27,3 +27,6 @@ a[href^="error:"] {
     background: red;
     color: white;
 }
+div.texyla ul.toolbar li.label {
+  color: #333;
+}

@@ -13,7 +13,7 @@
 	<meta name="description" content="">
 	<meta name="robots" content="{$robots}" n:ifset="$robots">
 
-	<title>{block title|striptags|upper}Texila Nette Example{/block}</title>
+	<title>{block title|striptags}Texila Nette Example{/block}</title>
 
 	<link rel="shortcut icon" href="{$basePath}/favicon.ico">
 	{block head}{/block}
@@ -25,6 +25,7 @@
 	<div n:foreach="$flashes as $flash" class="flash {$flash->type}">{$flash->message}</div>
 
 	{include content}
+  <script type="text/javascript" src="{$basePath}/www/js/jquery.js"></script>
   {control js}
   {control texyla}
 </body>

@@ -1,26 +1,26 @@
 # I prefer to create components in BasePresenter you can use webloader.neon if you wish
-#services:
-#	jwlCssMinFilter: Joseki\Webloader\CssMinFilter
+services:
+    jwlCssMinFilter: Joseki\Webloader\CssMinFilter
 webloader:
 	css:
 		default:
-			remoteFiles:
-				- https://code.jquery.com/ui/1.11.4/themes/cupertino/jquery-ui.css
 			files:
-				#- %wwwDir%/../libs/bootstrap/css/bootstrap-responsive.min.css
-#				- %wwwDir%/../vendor/smasty/twitter-control/client-side/TwitterControl.css
+				- %wwwDir%/www/css/jquery-ui.css
+				- %wwwDir%/www/css/bootstrap.css
 				- %wwwDir%/www/css/texyla-style.css
 				- %wwwDir%/www/css/texyla-theme-default.css
-#			filters:
-#				- @jwlCssMinFilter
+				- %wwwDir%/www/css/screen.css
+			filters:
+				- @jwlCssMinFilter
 	js: 
 		default:
 			remoteFiles:
-				- https://code.jquery.com/jquery-1.12.3.min.js
-				- https://code.jquery.com/ui/1.11.4/jquery-ui.min.js
 			files:
+				- %wwwDir%/www/js/jquery-ui.js
+				- %wwwDir%/www/js/jquery.ui.datepicker-sk.js
+				- %wwwDir%/www/js/bootstrap.js
 				- %wwwDir%/www/js/netteForms.js
-				#- %wwwDir%/js/nette.ajax.js
+				- %wwwDir%/www/js/nette.ajax.js
 		texyla:
 			files:
 				- %wwwDir%/www/js/texyla/js/texyla.js

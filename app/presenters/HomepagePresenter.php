@@ -22,7 +22,7 @@ class HomepagePresenter extends BasePresenter {
         ->getControlPrototype()->class("texyla");
 
     $form->addSubmit("s", "Submit");
-    $form->onSuccess[] = $this->exampleFormSubmitted;
+    $form->onSuccess[] = [$this, 'exampleFormSubmitted'];
     return $form;
   }
 	
