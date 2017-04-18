@@ -17,3 +17,4 @@ app/config/config.local.neon
 /vendor/autoload.php
 /vendor/
 /nbproject/private/
+composer.lock
