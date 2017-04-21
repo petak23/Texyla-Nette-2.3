@@ -1,6 +1,7 @@
 # I prefer to create components in BasePresenter you can use webloader.neon if you wish
 services:
     jwlCssMinFilter: Joseki\Webloader\CssMinFilter
+    jsMin: Joseki\Webloader\JsMinFilter
 webloader:
 	css:
 		default:
@@ -47,5 +48,5 @@ webloader:
 				- %wwwDir%/www/js/texyla/plugins/youtube/youtube.js
 				- %wwwDir%/www/js/texyla/plugins/gravatar/gravatar.js
 				- %wwwDir%/www/js/texyla-init.js
-#			filters:
-#				- @JSMin::minify
+			filters:
+				- @jsMin
