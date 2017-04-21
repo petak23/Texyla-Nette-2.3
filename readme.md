@@ -20,13 +20,13 @@ Installing Nette and Texyla
 
 3. Navigate to your preferable directory and run command
 
-   - git clone https://github.com/petak23/Texyla-Nette-2.4.git
-   - cd Texyla-Nette-2.4/
+   - `git clone https://github.com/petak23/Texyla-Nette-2.4.git`
+   - `cd Texyla-Nette-2.4/`
    - create dir: `mkdir log temp webtemp`
    - make directories `temp` `log` `webtemp`  writable. 
-   -  - Shortcut for linux: mkdir log temp webtemp && chmod -R a+rw temp log webtemp
-      - Shortcut for windows: mkdir log temp webtemp
-   - composer install.
+   -  - Shortcut for linux: `mkdir log temp webtemp && chmod -R a+rw temp log webtemp`
+      - Shortcut for windows: `mkdir log temp webtemp`
+   - `composer install.`
 
 It is CRITICAL that file `app/config/config.neon` & whole `app`, `log`
 and `temp` directory are NOT accessible directly via a web browser! If you
